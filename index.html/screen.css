@@ -1,1 +1,190 @@
 
+body{
+max-width: 60em;
+background-color:  #808080;
+  text-align: center;
+	margin: auto;
+}
+
+
+
+
+#weight-style p {
+	font-size: 3em;
+	color:  #ffe6e6;
+
+}
+.bold {
+  font-weight: bold;
+
+
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+h1  {
+  border-style:  solid gray;
+  border-style: double;
+   padding: .5em;
+   color: white;
+   background-color: black;
+   clear: left;
+   font-size: 115px;
+	text-decoration: underline;
+	text-shadow: 10px 10px gray;
+	border-color: #ff9999;
+	border-width: 50px;
+
+}
+
+
+
+h3 {
+  border-style: solid;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	font-size: 40px;
+	background-color: white;
+	text-shadow: 25px 25px rgb(207, 117, 128);
+  }
+
+
+h2 {
+   font-size:  80px;
+	border-style: solid;
+	padding-top:  .5px;
+	padding-bottom: .5px;
+	background-color: black;
+	color: white;
+	text-shadow: 10px 10px #660000;
+
+}
+
+h4 {
+	font-size:  30px;
+}
+p1 {
+	font-size: 70px;
+	border-top-style:  solid;
+	border-left-style:  solid;
+	border-right-style:  solid;
+	border-color: black;
+	color: white;
+	text-shadow: 0 0 60px #cc0000, 0 0 20px #990000;
+	padding: 20px;
+
+}
+
+#fun-facts ul {
+	font-size: 50px;
+	background-color: #ffe6e6;
+	list-style-type: square;
+	border:  20px solid;
+	padding:
+
+}
+
+nav ul {
+	list-style: none;
+	font-size: 30px;
+	text-align: left;
+	background-color:  #ff6666;
+	padding-left: 0;
+	color: white;
+}
+
+nav li {
+		display: inline;
+		margin-right: -.25em;
+}
+
+nav	a {
+		display: inline-block;
+    background-color: #f44336;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+nav a:hover {
+	background: #000;
+}
+
+	h5 {
+		font-size: 40px
+
+
+
+	}
+
+#links a {
+	font-size: 60px
+}
+
+
+
+
+.lc-g {
+    display: inline;
+    position: relative;
+    top: 1em;
+    left: 6em;
+    z-index: 2;
+
+}
+
+.lc-g span {
+    font-size: 20em;
+    color: #000;
+		opacity: .5;
+}
+
+.uc-g {
+    display: inline;
+    position: relative;
+    z-index: 1;
+}
+
+.uc-g span {
+    font-size: 20em;
+		opacity: .75;
+}
+
+
+.editme {
+	font-size: 3em;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+	border-top: 20px solid #000;
+	margin-left: 30em;
+
+}
+
+h6  {
+	font-size: 4em;
+	margin-top: 0;
+	margin-bottom:0;
+	}
+
+.history {
+	font-size: 25px;
+	background: #ffe6e6;
+}
+
+.desgin {
+	background:#ffe6e6;
+	border: 20px solid;
+	margin: -20px;
+
+}
