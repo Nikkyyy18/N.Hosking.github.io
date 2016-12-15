@@ -1,0 +1,228 @@
+body {
+	background-color:  #ffd9cc;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	}
+
+
+h1 {
+	font-size:  3em;
+	border-style: solid;
+	border-width:  .3em;
+  font-style:  oblique;
+	text-align: center;
+	border-color: #563f46;
+	background-color: #ffece6;
+	text-shadow: 4px 3px #c6bcb6;
+
+}
+
+#about-me
+{
+	border-style: solid;
+	border-width: 1em;
+	background-color: #ffece6;
+}
+h3{
+	font-size: 5.5em;
+	border-bottom: double;
+	border-bottom-width: .8em;
+	border-bottom-color:  #563f46;
+	text-align: center;
+}
+
+h6 {
+	font-size: 5.5em;
+	border-bottom: double;
+	border-bottom-width: .8em;
+	border-bottom-color: #563f46;
+	text-align: center;
+
+
+}
+
+h5 {
+	font-size: 5.5em;
+	border-bottom: double;
+	border-bottom-width: .8em;
+	border-bottom-color: #563f46;
+	text-align: center;
+}
+
+.info {
+	font-size:  2em;
+	font-weight: 900em;
+}
+
+h4{
+	font-size:  4em;
+	border-bottom: solid .3em;
+	border-bottom-color: #484f4f;
+	background-color: #563f46;
+	text-align: center;
+
+
+
+}
+
+.drop-cap {
+	float: left;
+	font-size: 225%;
+	line-height: 1;
+	margin-right: .5em;
+	border: solid;
+	border-width: .1em;
+	padding: .1em;
+	}
+
+#info {
+ font-size:  2em;
+	padding:  -2em;
+		text-align: center;
+		border-style: solid;
+		border-width: 1em;
+}
+
+.photo-me {
+	text-align: center;
+	}
+
+.me {
+	font-size: 1.7em;
+	padding: 1em;
+	font-weight: 900;
+  font-family: georgia;
+}
+
+#desgin-tattoo {
+	font-size:  1.8em;
+	font-family: georgia;
+		border: solid;
+	padding: 1em;
+	font-weight: 900;
+	background-color: #ffece6;
+	border-width: 1em;
+}
+
+#paintings {
+	font-size: 1.8em;
+	font-family: georgia;
+		text-align: center;
+	border: solid;
+	padding: 1em;
+	font-weight: 900;
+	background-color: #ffece6;
+	border-width: 1em;
+}
+#p-tats {
+	font-size: 1.8em;
+	font-family: georgia;
+	text-align: center;
+	border: solid;
+	padding: 1em;
+	font-weight: 900;
+	background-color: #ffece6;
+	border-width: 1em;
+}
+
+ul{
+	list-style-type: none;
+	width: 200px;
+	background-color: #f1f1f1;
+	 padding: 8px 16px;
+	font-size:  1.3em;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+	background-color: #555;
+	color: white;
+}
+
+ol {
+list-style: none;
+padding-left: 0;
+}
+
+figure,
+figcaption {
+	margin: 0;
+	}
+
+.gallery {
+	text-align: center;
+	font-weight: 900;
+	font-size: 1.5em;
+	}
+
+.gallery li {
+	display: inline;
+	}
+
+.gallery figure {
+  border: solid;
+  border-width: 1em;
+	display: inline-block;
+	width: 20em;
+	text-align: middle;
+
+	vertical-align: bottom;
+	}
+
+.tat-pic figure {
+border: solid;
+  border-width: 1em;
+	display: inline-block;
+	width: 20em;
+vertical-align: middle;
+}
+
+.tat-pic {
+padding: 1em;
+text-align: center;
+}
+
+
+
+.logo li {
+  display: inline;
+  text-align: center;
+}
+
+.logo figure {
+  border: solid;
+  border-width: 1em;
+	display: inline-block;
+	width: 18em;
+ vertical-align: center;
+}
+
+.tattoos {
+	text-align: center;
+	}
+
+.tattoos figure {
+border: solid;
+  border-width: 1em;
+	display: inline-block;
+	width: 20em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.tattoos li {
+display: inline;
+}
+
+.logo {
+	text-align: center;
+}
+
