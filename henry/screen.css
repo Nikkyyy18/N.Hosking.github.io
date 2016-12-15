@@ -1,0 +1,203 @@
+#henry {
+	position: relative;
+	width: 17.25em;
+	background: #8f246b;
+	padding: 2em 2em 3em 1em;
+	margin: 2em auto;
+	border-radius: 35% 35% 0 0;
+	height: 39em;
+}
+
+#eye {
+	position: relative;
+	width: 16.25em;
+	height: 16.25em;
+	border: .5em solid #fff;
+	border-radius: 50%;
+
+}
+
+#iris {
+	position: relative;
+	width: 16em;
+	height: 16em;
+	background: #00e600;
+	border: .125em solid #000;
+	border-radius: 50%;
+	background: radial-gradient(rgb(0, 201, 89), rgb(0, 27, 59));
+	animation: rotate 45s infinite 1s;
+}
+
+	@keyframes rotate {
+
+		0% {
+			transform: rotate(0deg);
+		}
+
+			50% {
+			transform: rotate(360deg);
+		}
+
+			100% {
+			transform: rotate(0deg);
+		}
+}
+
+#pupil {
+	position: relative;
+	width:  7.5em;
+	height:  7.5em;
+	background: #000;
+	border-radius: 50%;
+  left: 0;
+	right: 0;
+	top:  3.5em;
+	bottom: 0;
+	margin:  auto;
+	}
+
+#white-spot-1 {
+	position: relative;
+	width: 5em;
+	height: 5em;
+	background:  white;
+	border-radius:  50%;
+	left: 2em;
+}
+
+#white-spot-2 {
+	position: relative;
+	width: 4em;
+	height: 4em;
+	background:  white;
+	left: 3em;
+	bottom: 10em;
+	border-radius:  50%;
+}
+
+#white-spot-3 {
+	position: relative;
+	width: 7em;
+	height: 7em;
+	background:  white;
+	left: 10em;
+	bottom: 10em;
+	border-radius:  50%;
+
+}
+
+#mouth {
+	position:  relative;
+	width: 10em;
+	margin: auto;
+}
+
+#black {
+	position: relative;
+	width: 10em;
+	height: 5em;
+	background: #000;
+	border-radius:  45%;
+	top:  5em;
+
+}
+
+#teeth {
+	position: relative;
+	width: 10em;
+	height: 2em;
+	background: white;
+}
+
+#tongue {
+	position: relative;
+	width: 7em;
+	height: 4em;
+background: linear-gradient(-1deg, rgb(223, 152, 198), rgb(44, 0, 39));
+  border-radius: 80%;
+	bottom: 0;
+	margin: auto;
+	animation:  move 9s infinite;
+}
+
+@keyframes move {
+
+	0% {
+		bottom: 0;
+	}
+
+	25% {
+		bottom -.5em;
+	}
+
+	50% {
+		bottom:  -1em;
+	}
+
+	75% {
+		bottom:  -.5em;
+	}
+
+	100% {
+		bottom:  0;
+	}
+}
+
+
+.left-side {
+	position: relative;
+	width: 10em;
+	height: 2em;
+	background: #000080;
+	left: 42.5em;
+	bottom: 13em;
+
+	}
+
+.right-side {
+	position: relative;
+	width: 10em;
+	height: 2em;
+	background: #000080;
+	bottom:  15em;
+	left: 32em;
+}
+
+#middle {
+	position: relative;
+	width: 4em;
+	height: 24em;
+	background: linear-gradient(37deg, rgb(21, 208, 249), rgb(7, 39, 70));
+
+	right: 0em;
+ margin: auto;
+	bottom: 17em;
+
+
+}
+
+#middle:after {
+	display: block;
+	position: absolute;
+	bottom: -2em;
+	content:  "";
+	width: 0;
+	height:  0;
+	line-height: 0;
+	border: 2em dashed transparent;
+	border-top:  2em solid #1ad1ff;
+	border-bottom: 0;
+}
+
+.dimond {
+	width: 5em;
+	height: 4em;
+	background: #00004d;
+	display: block;
+	position: absolute;
+	border-radius: 30%;
+	bottom: 32em;
+	left:  40em;
+}
+
+
